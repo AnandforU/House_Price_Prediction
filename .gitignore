@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+egg-info/
+.installed.cfg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+
+# Test and coverage reports
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.log
+.coverage
+*.hypothesis/
+*.tox/
+.cache/
+.coverage.*
+nosetests.xml
+coverage.xml
+
+# MyPy
+.mypy_cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Model files
+*.pkl
+*.h5
+
+# Docker
+docker-compose.override.yml

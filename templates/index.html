@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>House Price Prediction</h1>
+    </header>
+    <main>
+        <section id="input-form">
+            <h2>Enter House Details</h2>
+            <form id="house-form">
+                <label for="bedrooms">Number of Bedrooms:</label>
+                <input type="number" id="bedrooms" name="bedrooms" required>
+                
+                <label for="bathrooms">Number of Bathrooms:</label>
+                <input type="number" step="0.1" id="bathrooms" name="bathrooms" required>
+                
+                <label for="living-area">Living Area (sq ft):</label>
+                <input type="number" id="living-area" name="living_area" required>
+                
+                <label for="lot-area">Lot Area (sq ft):</label>
+                <input type="number" id="lot-area" name="lot_area" required>
+                
+                <label for="floors">Number of Floors:</label>
+                <input type="number" step="0.1" id="floors" name="floors" required>
+                
+                <label for="waterfront">Waterfront Present (1 for Yes, 0 for No):</label>
+                <input type="number" id="waterfront" name="waterfront" required>
+                
+                <label for="views">Number of Views:</label>
+                <input type="number" id="views" name="views" required>
+                
+                <label for="condition">Condition of the House (1-5):</label>
+                <input type="number" id="condition" name="condition" required>
+                
+                <label for="grade">Grade of the House (1-13):</label>
+                <input type="number" id="grade" name="grade" required>
+                
+                <label for="area-excl-basement">Area of the House (excluding basement) (sq ft):</label>
+                <input type="number" id="area-excl-basement" name="area_excl_basement" required>
+                
+                <label for="basement-area">Area of the Basement (sq ft):</label>
+                <input type="number" id="basement-area" name="basement_area" required>
+                
+                <label for="built-year">Built Year:</label>
+                <input type="number" id="built-year" name="built_year" required>
+                
+                <label for="renovation-year">Renovation Year:</label>
+                <input type="number" id="renovation-year" name="renovation_year" required>
+                
+                <label for="postal-code">Postal Code:</label>
+                <input type="number" id="postal-code" name="postal_code" required>
+                
+                <label for="latitude">Latitude:</label>
+                <input type="number" step="0.0001" id="latitude" name="latitude" required>
+                
+                <label for="longitude">Longitude:</label>
+                <input type="number" step="0.0001" id="longitude" name="longitude" required>
+                
+                <label for="living-area-renov">Living Area (renov) (sq ft):</label>
+                <input type="number" id="living-area-renov" name="living_area_renov" required>
+                
+                <label for="lot-area-renov">Lot Area (renov) (sq ft):</label>
+                <input type="number" id="lot-area-renov" name="lot_area_renov" required>
+                
+                <label for="schools-nearby">Number of Schools Nearby:</label>
+                <input type="number" id="schools-nearby" name="schools_nearby" required>
+                
+                <label for="distance-airport">Distance from the Airport (miles):</label>
+                <input type="number" id="distance-airport" name="distance_airport" required>
+
+                <button type="submit">Predict Price</button>
+            </form>
+        </section>
+        <section id="result">
+            <h2>Predicted Price</h2>
+            <p id="price">Enter house details and click Predict Price.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 House Price Prediction. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
